@@ -1,5 +1,5 @@
 server:
-  port: 8090 #运行端口号
+  port: 8080 #运行端口号
 
 spring:
   application:
