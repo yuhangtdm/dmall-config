@@ -19,7 +19,7 @@ eureka:
     lease-renewal-interval-in-seconds: 30 #定义服务多久去注册中心续约
     lease-expiration-duration-in-seconds: 90 #定义服务多久不去续约认为服务失效
 turbine:
-  app-config: dmall-framework-dashboard,dmall-service-impl-product
+  app-config: dmall-service-impl-product,dmall-service-impl-member
   aggregator:
     cluster-config: default
   cluster-name-expression: new String("default")
