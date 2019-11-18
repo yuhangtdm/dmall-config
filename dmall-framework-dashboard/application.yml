@@ -24,5 +24,11 @@ turbine:
     cluster-config: default
   cluster-name-expression: new String("default")
 
+dmall:
+    logstash:
+        url: 106.15.47.106:4560
+logging:
+    file: dmall-framework-config-server
+    path: /opt/logs
 
 #############xxxyyy
